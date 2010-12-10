@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<title>Cartagen</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<!--[if IE]><script type="text/javascript" src="cartagen/excanvas.js"></script><![endif]-->
+	<script src="cartagen/cartagen.js" type="text/javascript" charset="utf-8"></script>
+	<meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+	<script type="text/javascript" charset="utf-8">
+		Cartagen.setup({
+			stylesheet: "samples/rome/style.gss",
+			static_map: true,
+			static_map_layers: [<!--Flat Files-->
+				"samples/rome/park.js",
+				"samples/rome/rail.js",
+				"samples/rome/waterway.js",
+				"samples/rome/primary.js",
+				"samples/rome/secondary.js",
+				"samples/rome/building.js",
+				"samples/rome/area.js",
+				// "more.json"
+			],
+			lat: 41.891,
+			lng: 12.4902,
+			// debug: true
+		})
+	</script>
+</head>
+<body>
+
+
+
+<canvas id="canvas" tabindex="5"></canvas>
+
+
+</div>
+
+</body>
+</html>
