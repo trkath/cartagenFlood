@@ -97,7 +97,6 @@ Class.Methods = {
   addMethods: function(source) {
     var ancestor   = this.superclass && this.superclass.prototype;
     var properties = Object.keys(source);
-	var potty = 'hello';
 
     if (!Object.keys({ toString: true }).length)
       properties.push("toString", "valueOf");
